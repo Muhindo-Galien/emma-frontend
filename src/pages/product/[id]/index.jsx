@@ -28,7 +28,6 @@ const Product = () => {
         console.log(error);    
       }
     }
-   
     const retreiveInfo = async()=>{
       try {
         await getSingleProd(id,address)
